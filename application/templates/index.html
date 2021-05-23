@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<form action="{{ url_for('profile')}}">&emsp;<input type=submit value="Create Fighter Profile"></form> 
+
+<h2>Fighter Profile</h2>
+&ensp; <b>Name:</b> &emsp; &emsp; &nbsp; {{ latest_profile.name }}
+<br>
+
+&ensp; <b>Martial Art:</b> &nbsp; {{ latest_profile.art }}
+<br>
+
+&ensp; <b>Record:</b> &emsp; &emsp; {{ latest_profile.wins }} {{ latest_profile.type }}
+<br>
+
+&ensp; <b>Qoute:</b>  &emsp; &emsp; &nbsp; {{ latest_profile.qoute }}
+<br>
+<br>
+<br>
+
+<h2>All Profiles</h2>
+
+{% for each_profile in all_profiles %}
+
+    &ensp; <b>Name:</b> &emsp; &emsp; &nbsp; {{ each_profile.name }}
+    <br>
+    
+    &ensp; <b>Martial Art:</b> &nbsp; {{ each_profile.art }}
+    <br>
+
+    &ensp; <b>Record:</b> &emsp; &emsp; {{ each_profile.wins }} wins by {{ latest_profile.type }}
+    <br>
+
+    &ensp; <b>Qoute:</b>  &emsp; &emsp; &nbsp; {{ each_profile.qoute }}
+    <br>
+    <br>
+    <br>
+
+{% endfor %}
+
+{% endblock body %}

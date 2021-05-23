@@ -1,0 +1,5 @@
+fighter_names = ['Paulita', 'Manna', 'Tillie', 'Lamprecht', 'Jayme', 'Fannin', 'Caleb', 'Moris', 'Sideny', 'Monte']
+fighter_surnames = ['Coombs', 'Gallows', 'Franzoni', 'Hoeppner', 'Costello', 'Scotti', 'Mellor', 'Lowenstein', 'Merino', 'Portier']
+nick_names = ["The Beast", "The Dentist", "Beauty and the Beast", "Angel of Death", "Sugar Free", "Ice Cold", "Shogun", "The Thunder", "The Dreamcatcher", "War Machine", "Was a Bullfrog", "Sick Dog", "Cheesesteak", "Cabbage", "Stinkyfeet", "The Word", "Gouda Gouda"]
+martial_art = ['Boxing', 'Submission Grappling', 'MMA']
+list_of_qoutes = ['I want to outlive my children.',"This is a rat race...but I ain't no rat. I'm a turtle. A ninja turtle.", "I have gained some weight, and it is affecting my car's fuel consumption.", "My grandma's 100 years old, I am 44 years old and I am in great shape."]
