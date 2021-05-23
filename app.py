@@ -32,7 +32,6 @@ def four():
     
     
 
-print(four())
 
     
 
